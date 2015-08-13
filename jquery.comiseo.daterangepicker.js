@@ -272,7 +272,7 @@
 
 		function refresh() {
 			$self.datepicker('refresh');
-			$self.datepicker('setDate', null); // clear the selected date
+			$self.datepicker('setDate', range.start); // go to start of range
 		}
 
 		function reset() {
